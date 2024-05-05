@@ -31,9 +31,9 @@ def test_change_cities():
     #========================================= ТЕСТ Москва =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Москва').click()
     assert BROWSER.current_url == 'https://moskva.telmark.ru/'
 
@@ -41,9 +41,9 @@ def test_change_cities():
     #========================================= ТЕСТ Санкт-Петербург =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Санкт-Петербург').click()
     assert BROWSER.current_url == 'https://spb.telmark.ru/'
 
@@ -51,9 +51,9 @@ def test_change_cities():
     #========================================= ТЕСТ Волгоград =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Волгоград').click()
     assert BROWSER.current_url == 'https://volgograd.telmark.ru/'
 
@@ -61,9 +61,9 @@ def test_change_cities():
     #========================================= ТЕСТ Екатеринбург =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Екатеринбург').click()
     assert BROWSER.current_url == 'https://ekaterinburg.telmark.ru/'
 
@@ -71,9 +71,9 @@ def test_change_cities():
     #========================================= ТЕСТ Казань =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Казань').click()
     assert BROWSER.current_url == 'https://kazan.telmark.ru/'
 
@@ -81,9 +81,9 @@ def test_change_cities():
     #========================================= ТЕСТ Нижний Новгород =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Нижний Новгород').click()
     assert BROWSER.current_url == 'https://nn.telmark.ru/'
 
@@ -91,9 +91,9 @@ def test_change_cities():
     #========================================= ТЕСТ Новосибирск =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Новосибирск').click()
     assert BROWSER.current_url == 'https://novosibirsk.telmark.ru/'
 
@@ -101,9 +101,9 @@ def test_change_cities():
     #========================================= ТЕСТ Омск =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Омск').click()
     assert BROWSER.current_url == 'https://omsk.telmark.ru/'
 
@@ -111,9 +111,9 @@ def test_change_cities():
     #========================================= ТЕСТ Ростов-на-Дону =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Ростов-на-Дону').click()
     assert BROWSER.current_url == 'https://rostov.telmark.ru/'
 
@@ -121,9 +121,9 @@ def test_change_cities():
     #========================================= ТЕСТ Самара =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Самара').click()
     assert BROWSER.current_url == 'https://samara.telmark.ru/'
 
@@ -131,9 +131,9 @@ def test_change_cities():
     #========================================= ТЕСТ Уфа =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Уфа').click()
     assert BROWSER.current_url == 'https://ufa.telmark.ru/'
 
@@ -141,9 +141,9 @@ def test_change_cities():
     #========================================= ТЕСТ Челябинск =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Челябинск').click()
     assert BROWSER.current_url == 'https://chelyabinsk.telmark.ru/'
 
@@ -151,9 +151,9 @@ def test_change_cities():
     #========================================= ТЕСТ Красноярск =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Красноярск').click()
     assert BROWSER.current_url == 'https://krasnoyarsk.telmark.ru/'
 
@@ -161,9 +161,9 @@ def test_change_cities():
     #========================================= ТЕСТ Краснодар =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Краснодар').click()
     assert BROWSER.current_url == 'https://krasnodar.telmark.ru/'
 
@@ -171,9 +171,9 @@ def test_change_cities():
     #========================================= ТЕСТ Воронеж =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Воронеж').click()
     assert BROWSER.current_url == 'https://voronezh.telmark.ru/'
 
@@ -181,9 +181,9 @@ def test_change_cities():
     #========================================= ТЕСТ Пермь =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Пермь').click()
     assert BROWSER.current_url == 'https://perm.telmark.ru/'
 
@@ -191,9 +191,9 @@ def test_change_cities():
     #========================================= ТЕСТ Другой =========================================#
 
     BROWSER.find_element(By.XPATH, '//button[@class="MobileMenuBtn_openMenu__hGPHk "]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.XPATH, '//button[@class="SelectCity_btn__bv_Oy MobileNavigation_mobileHeaderSelectCityBtn__9BgSJ"]').click()
-    time.sleep(1)
+    time.sleep(2)
     BROWSER.find_element(By.LINK_TEXT, 'Другой').click()
     assert BROWSER.current_url == 'https://telmark.ru/'
 
